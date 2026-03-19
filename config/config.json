@@ -1,0 +1,29 @@
+{
+    "problem_type": "graph_coloring",
+    "seed": 82975903,
+    "output_dir": "out",
+    "log_dir": "log",
+    "create_timed_subdir": true,
+    "log_level": "info",
+
+    "key_dir": "config/keys",
+    "board_num": 12,
+
+    "problem_path": "dcop/graph-coloring/n12/graph00.csv",
+    "color_num": 3,
+    "timeslot_num": 8,
+
+    "default_value": 1,
+    "fault_num": 0,
+    "fault_bound": 1,
+
+    "algorithm": "max-sum",
+    "sign_mode": "none",
+    "step_max": 1000,
+    "step_min": 50,
+    "damping_factor": 0,
+    "fault_utility_factor": 100,
+    "epsilon": 1e-15,
+    "message_queue_size": 0,
+    "penalty_coef": 1e-5
+}
