@@ -27,7 +27,7 @@ def create_actor(
     sign_mode:str=None,
     fault_bound: int=None,
     all_nodes: list[NodeAlloc]=None,
-) -> MaxSumActor|FtMaxSumActor|ReplMaxSumActor:
+) -> MaxSumActor|ReplMaxSumActor:
 
     if algorithm == STR_MAX_SUM:
         return MaxSumActor(

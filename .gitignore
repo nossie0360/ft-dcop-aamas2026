@@ -4,7 +4,6 @@ lib/
 log/
 tmp/
 .vscode/
-*.key
 *.xlsx
 agents.md
 
