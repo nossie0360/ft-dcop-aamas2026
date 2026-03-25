@@ -49,7 +49,7 @@ for n_value in 12 24 36 48; do
         # Execute for each algorithm
         for algorithm in "${algorithms[@]}"; do
             # Execute for each fault-num
-            for fault_factor in 0 1 2 3; do
+            for fault_factor in 0 1 2 3 4; do
                 fault_num=$((fault_factor * n_value / 12))
                 run_simulation $n_value $graph_id $algorithm $fault_num
             done
